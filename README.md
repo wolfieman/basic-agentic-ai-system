@@ -28,15 +28,24 @@ All notebooks in this course are designed to run on **Google Colab** with no loc
 
 ### Quick Start with Google Colab
 
-1. **Open the notebook in Colab**: Click on the notebook link above (e.g., "Open action_autonomy.ipynb in Colab") to launch it directly in Google Colab
+1. **Download the course files**: Download this repository as a ZIP file from LinkedIn Learning
 
-2. **Set up your OpenAI API key**:
+2. **Open the notebook in Colab**: Click on the notebook link above (e.g., "Open action_autonomy.ipynb in Colab") to launch it directly in Google Colab
+
+3. **Upload the course ZIP file**:
+   - In Colab, click the folder icon (📁) in the left sidebar to open the Files panel
+   - Drag and drop the downloaded ZIP file (`agentic-ai-build-your-first-agentic-ai-system-4645038.zip`) into the Files panel
+   - Wait for the upload to complete
+
+4. **Set up your OpenAI API key**:
    - In Colab, click the key icon (🔑) in the left sidebar
    - Add a new secret named `OPENAI_API_KEY`
    - Paste your OpenAI API key as the value
    - Toggle the "Notebook access" switch to enable access
 
-3. **Run the notebook**: Execute cells in order, stopping at chapter break markers as indicated in the videos
+5. **Run the setup cell**: Execute the first cell in the notebook - it will automatically unzip the course files and set up the environment
+
+6. **Continue with the notebook**: Execute remaining cells in order, stopping at chapter break markers as indicated in the videos
 
 ## Prerequisites
 
