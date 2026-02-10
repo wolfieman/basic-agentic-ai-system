@@ -155,8 +155,6 @@ This CC/CD pattern works for production systems and teaches you how to systemati
 
 **Sai Kiriti Badam**
 
-Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/sai-kiriti-badam).
-
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
 [lil-course-url]: https://www.linkedin.com/learning/agentic-ai-build-your-first-agentic-ai-system
