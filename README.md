@@ -6,7 +6,7 @@ This is the repository for the LinkedIn Learning course `Agentic AI: Build Your 
 
 ## Course Description
 
-Learn to build production-ready agentic AI systems using the Autonomy Ladder framework. This hands-on course guides you through implementing two complete systems - from simple action classification to multi-step planning with retrieval - while teaching systematic evaluation, error analysis, and continuous improvement patterns that work in real production environments.
+Dive into agentic AI and master the skills you need to build scalable, real-world systems within an enterprise environment. In this course, industry expert Aishwarya Naresh Reganti shows you how to identify suitable business problems for agentic AI solutions, break down systems, iterate designs from baseline to advanced setups, and evaluate design trade-offs. Learn how to apply a comprehensive CCCD (Continuous Calibration Continuous Development) framework to safely increase AI autonomy while maintaining user trust. Tackle complex AI challenges as you gain insights on guardrails, governance, and security. This course is suited for engineers, product managers, enterprise leaders, and anyone eager to move beyond AI basics and implementation hurdles. Whether you're enhancing your existing skills or seeking to refine AI systems from concept to execution, this course delivers valuable knowledge for practical applications.
 
 ## Instructions
 
@@ -143,4 +143,4 @@ This CC/CD pattern works for production systems and teaches you how to systemati
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
 [lil-course-url]: https://www.linkedin.com/learning/agentic-ai-build-your-first-agentic-ai-system
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQG0eDHsyOSqTA/learning-public-crop_675_1200/B4EZVdqqdwHUAY-/0/1741033220778?e=2147483647&v=beta&t=FxUDo6FA8W8CiFROwqfZKL_mzQhYx9loYLfjN-LNjgA
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4D0DAQETSarROpRJLw/learning-public-crop_675_1200/B4DZvz7obMIQAY-/0/1769324055075?e=2147483647&v=beta&t=0Ba3fWz4aMqr4b-9nk2om4vpy2aS6a8hBMf3BSKBJzk
