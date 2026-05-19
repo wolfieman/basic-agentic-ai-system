@@ -3,3 +3,13 @@ node_modules
 .tmp
 npm-debug.log
 .env
+
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.ruff_cache/
+.pytest_cache/
+.ipynb_checkpoints/
