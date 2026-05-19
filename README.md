@@ -17,10 +17,10 @@ This repository has branches for each of the videos in the course. You can use t
 This course uses two main Jupyter notebooks that you'll run on Google Colab:
 
 ### Chapter 3: V1 Action Autonomy (Router Agent)
-**[Open action_autonomy.ipynb in Colab](https://colab.research.google.com/github/LinkedInLearning/agentic-ai-build-your-first-agentic-ai-system-4645038/blob/main/action_autonomy.ipynb)** - Use this notebook throughout Chapter 3. The notebook includes clear chapter break markers (🎬 End of Chapter) that show you where to stop for each video.
+**[Open action_autonomy.ipynb in Colab](https://colab.research.google.com/github/wolfieman/basic-agentic-ai-system/blob/main/action_autonomy.ipynb)** - Use this notebook throughout Chapter 3. The notebook includes clear chapter break markers (🎬 End of Chapter) that show you where to stop for each video.
 
 ### Chapter 4: V2 Planning Autonomy (Planning Agent)
-**[Open planning_autonomy.ipynb in Colab](https://colab.research.google.com/github/LinkedInLearning/agentic-ai-build-your-first-agentic-ai-system-4645038/blob/main/planning_autonomy.ipynb)** - Use this notebook throughout Chapter 4. The notebook includes clear chapter break markers (🎬 End of Chapter) that show you where to stop for each video.
+**[Open planning_autonomy.ipynb in Colab](https://colab.research.google.com/github/wolfieman/basic-agentic-ai-system/blob/main/planning_autonomy.ipynb)** - Use this notebook throughout Chapter 4. The notebook includes clear chapter break markers (🎬 End of Chapter) that show you where to stop for each video.
 
 ## Running the Notebooks
 
@@ -28,24 +28,33 @@ All notebooks in this course are designed to run on **Google Colab** with no loc
 
 ### Quick Start with Google Colab
 
-1. **Download the course files**: Download this repository as a ZIP file from LinkedIn Learning
+1. **Open the notebook in Colab**: Click on the notebook link above to launch it directly in Google Colab from this fork
 
-2. **Open the notebook in Colab**: Click on the notebook link above (e.g., "Open action_autonomy.ipynb in Colab") to launch it directly in Google Colab
-
-3. **Upload the course ZIP file**:
-   - In Colab, click the folder icon (📁) in the left sidebar to open the Files panel
-   - Drag and drop the downloaded ZIP file (`agentic-ai-build-your-first-agentic-ai-system-4645038.zip`) into the Files panel
-   - Wait for the upload to complete
-
-4. **Set up your OpenAI API key**:
+2. **Set up your OpenAI API key**:
    - In Colab, click the key icon (🔑) in the left sidebar
    - Add a new secret named `OPENAI_API_KEY`
    - Paste your OpenAI API key as the value
    - Toggle the "Notebook access" switch to enable access
 
-5. **Run the setup cell**: Execute the first cell in the notebook - it will automatically unzip the course files and set up the environment
+3. **Run the setup cell** (the very first code cell at the top of the notebook): it will automatically clone this repository into Colab, set the working directory, and load your API key from Colab Secrets
 
-6. **Continue with the notebook**: Execute remaining cells in order, stopping at chapter break markers as indicated in the videos
+4. **Continue with the notebook**: Execute remaining cells in order, stopping at chapter break markers (🎬) as indicated in the videos
+
+### Running Locally (alternative)
+
+The notebooks also run locally — no ZIP upload, no Colab needed. Quick setup with [uv](https://docs.astral.sh/uv/):
+
+```bash
+cd basic-agentic-ai-system
+uv init                                                    # one-time
+uv add openai pandas python-dotenv "arize-phoenix[evals]" \
+       openinference-instrumentation-openai jupyter ipykernel rank-bm25
+
+cp .env.example .env                                       # then edit .env with your key
+uv run jupyter lab                                         # opens Jupyter at the repo root
+```
+
+The notebooks detect they're not in Colab and load the API key from `.env` instead.
 
 ## Prerequisites
 
