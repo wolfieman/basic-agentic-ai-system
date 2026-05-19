@@ -1,0 +1,11 @@
+# Ruff configuration for this learning-repo fork.
+#
+# Suppresses Ruff F541 (f-string without placeholders) globally,
+# which fires on a few cells in the instructor's notebooks where
+# `f"\nSomething"` was used without any {} interpolation. These are
+# harmless and not worth modifying the tutorial code over.
+#
+# Everything else stays at Ruff defaults.
+
+[lint]
+ignore = ["F541"]
